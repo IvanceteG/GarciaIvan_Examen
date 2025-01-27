@@ -9,7 +9,7 @@ body{
     max-width: 1300px;
     background-color: #ffffffff;
     margin: 0 auto 0 auto;
-    padding: 20px 55px 0 55px; 
+    padding: 20px 55px 0 55px;
 }
 
 header{
@@ -111,9 +111,28 @@ h2{
     text-align: right;
 }
 
+.image-text-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-text-container img {
+    width: 623px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-text-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2A2A2A;
+}
+
 footer{
     background-color: #285E67;
-    height: 200px;
+    width: 1441px;
+    height: 245px;
 }
 
 .you-are-what-you-eat {
@@ -188,4 +207,33 @@ footer{
     font-size: 14px;
     color: #2A2A2A;
     line-height: 1.6;
+}
+
+.fotofondo{
+    background-image: url(images/fotofondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    padding: 40px;
+    color: #ffffff;
+    width: 1302px;
+    height: 667px;
+    text-align: center;
+    justify-content: center;
+}
+
+.fondoplantas{
+    background-color: #FCE2D7;
+    text-align: center;
+    justify-content: center;
+}
+
+.textocentrado{
+    text-align: center;
+}
+
+.footer-palabras {
+    display: flex;
+    justify-content: space-between;
 }
