@@ -1,0 +1,191 @@
+body{
+    background-color: azure;
+    font-family: "Poppins",sans-serif;
+    color: #2B2B2B;
+    font-size: 16px;
+}
+
+#contenedor{
+    max-width: 1300px;
+    background-color: #ffffffff;
+    margin: 0 auto 0 auto;
+    padding: 20px 55px 0 55px; 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #2B2B2B;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #2B2B2B2B;
+}
+
+#principal{
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1{
+    font-size: 65px;
+    font-weight: 500px;
+}
+
+h2{
+    font-size: 50.52px;
+    font-weight: 600;
+}
+
+.boton{
+    background-color: #285E67;
+    width: 251px;
+    height: 56px;
+    color: white;
+    font-size: 21.33px;
+    border-radius: 50px;
+}
+
+#imagenes{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#seccion3{
+    background-color: #F4F4F4;
+    margin: 100px 0;
+    padding: 80px 100px 5px 100px;
+    border-radius: 12px;
+    display: flex;
+}
+
+.botonhoja{
+    background-color: #285E67;
+    width: 58px;
+    height: 57px;
+    border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+    gap: 100px;
+}
+
+#seccion3>div{
+    width: 50%;
+}
+
+
+.yoga{
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+#s4{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mano{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+}
+
+.mano img{
+    border-radius: 16px;
+
+    
+}
+
+.fresh{
+    text-align: right;
+}
+
+footer{
+    background-color: #285E67;
+    height: 200px;
+}
+
+.you-are-what-you-eat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    gap: 40px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.text-section {
+    flex: 1;
+}
+
+.text-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.info-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fce8e6;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.card .icon {
+    background-color: #f8d5d3;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card .icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #2A2A2A;
+    line-height: 1.6;
+}
